@@ -52,6 +52,7 @@
     z-index: 1;
     font-weight: bold;
     color: saddlebrown;
+    font-size: 2.3vw;
 }
 #hourDigital{
     height: 3vw;
@@ -60,7 +61,7 @@
     top: 6%;
     left: 4%;
     text-align: center;
-    font-size: xx-large;
+    
 }
 #minuteDigital{
     height: 3vw;
@@ -69,7 +70,7 @@
     top: 6%;
     left: 34%;
     text-align: center;
-    font-size: xx-large;
+    
 }
 #secondDigital{
     height: 3vw;
@@ -78,19 +79,19 @@
     top: 6%;
     left: 69%;
     text-align: center;
-    font-size: xx-large;
+    
 }
 .colon1{
     position: absolute;
     top: 0%;
     left: 32%;
     text-align: center;
-    font-size: xx-large;
+    font-size: 2.3vw;
 }
 .colon2{
     position: absolute;
     top: 0%;
     left: 64.5%;
     text-align: center;
-    font-size: xx-large;
+    font-size: 2.3vw;
 }
