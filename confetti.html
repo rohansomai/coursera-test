@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="confetti.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confetti Effect</title>
+</head>
+
+<body>
+    <div class="container">
+        <p>🎉🎂 Happy Birthday Ashok Sir 🎉🎂
+            <br>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Enjoy your day 😊🎁✨
+        </p>
+    </div>
+    <div class="buttons">
+        <button type="button" class="btn btn-success" onclick="confetti.start()">Start Confetti</button> &nbsp;
+        <button type="button" class="btn btn-danger" onclick="confetti.stop()">Stop Confetti</button>
+    </div>
+    <script src="./confetti.js"></script>
+    <script>
+        confetti.start();
+    </script>
+
+</body>
+
+</html>
