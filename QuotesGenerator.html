@@ -27,7 +27,7 @@
             xhr.onreadystatechange = function () {
                 if (xhr.readyState == 4) {
                     var json = JSON.parse(xhr.responseText);
-                    var randomNumber = parseInt(Math.random() * 100);
+                    var randomNumber = parseInt(Math.random() * 1000);
                     var quoteText = json[randomNumber].text;
                     quote.innerText = quoteText;
                 }
@@ -53,7 +53,7 @@
                 <div class="quote-container">
                     <h3>Random Quote Generator</h3>
                     <div id="quote">
-                        Click the below button to start generating Quotes
+                        Chal Vedika Kuttiya Padhne beth ab
                     </div>
                     <div class="buttons">
                         <button class="btn btn-success" onclick="copyToClipboard('#quote')">Copy to Clipboard</button>
